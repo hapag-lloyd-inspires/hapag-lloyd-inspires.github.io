@@ -1,14 +1,9 @@
 ---
 layout: post
-title:  "1. Texte Stylen"
-nav_order: 2
+title:  "Texte stylen"
+nav_order: 3
 ---
-# Intro zu repl.it und Texte stylen
-
-## Aufgabe 1: erstelle ein Repl.it
-1. Gehe auf [replit.com](https://www.replit.com) 
-2. erstelle einen Account 
-3. erstelle ein neues REPL
+# Texte stylen
 
 ## Aufgabe 2: Texte stylen
 
