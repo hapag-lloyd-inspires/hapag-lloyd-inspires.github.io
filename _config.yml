@@ -4,6 +4,8 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+color_scheme: hl
+
 aux_links:
   "Hapag-Lloyd": https://www.hapag-lloyd.com
 
