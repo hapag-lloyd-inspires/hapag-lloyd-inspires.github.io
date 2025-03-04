@@ -6,9 +6,6 @@ url: https://just-the-docs.github.io
 
 color_scheme: hl
 
-aux_links:
-  "Hapag-Lloyd": https://www.hapag-lloyd.com
-
 nav_external_links:
   - title: Color Picker
     url: https://www.w3schools.com/colors/colors_picker.asp
