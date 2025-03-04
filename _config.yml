@@ -1,8 +1,23 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Hapag-Lloyd Hackerschool
+description: Aufgabensammlung für die Hapag-Lloyd Hackerschool 2025
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Hapag-Lloyd": https://www.hapag-lloyd.com
+
+nav_external_links:
+  - title: Color Picker
+    url: https://www.w3schools.com/colors/colors_picker.asp
+    opens_in_new_tab: true
+
+collections:
+  tasks:
+    output: true
+    permalink: /:path/
+
+just_the_docs:
+  collections:
+    tasks:
+      name: Aufgaben
