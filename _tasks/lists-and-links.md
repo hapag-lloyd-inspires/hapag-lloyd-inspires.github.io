@@ -65,6 +65,9 @@ Hapag-Lloyd ist ein Unternehmen, das sich auf den Transport von Containern spezi
 Mehr Informationen <a href="https://www.hapag-lloyd.com">hier</a>.
 </p>
 ```
+![img.png](/images/replit-open-new-tab.png)
+
+Um Links zu einer anderen Webseite zu öffnen solltest den Webview in einem neuen Tab öffnen. Klicke dazu auf den Knop "New Tab" oben rechts in der Vorschau.
 
 {: .task }
 Erstelle drei Links zu Webseiten, die Informationen über dein Thema enthalten.

@@ -36,5 +36,5 @@ layout: home
     <dt>12:30-14:00</dt>
     <dd>Programmieren</dd>
     <dt>14:00 - 15:00</dt>
-    <dd>Präsentationen</dd>
+    <dd>Vorstellung der Webseiten</dd>
 </dl>
