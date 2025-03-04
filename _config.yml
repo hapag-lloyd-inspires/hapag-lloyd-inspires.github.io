@@ -20,3 +20,29 @@ just_the_docs:
   collections:
     tasks:
       name: Aufgaben
+
+enable_copy_code_button: false
+back_to_top: true
+back_to_top_text: "zum Seitenanfang"
+
+callouts:
+  warning:
+    title: Warnung
+    color: red
+  highlight:
+    color: yellow
+  important:
+    title: Wichtig
+    color: blue
+  new:
+    title: Neu
+    color: green
+  note:
+    title: Aufgabe
+    color: purple
+  task:
+    title: Aufgabe
+    color: yellow
+  extra-task:
+    title: Zusatzaufgabe
+    color: purple

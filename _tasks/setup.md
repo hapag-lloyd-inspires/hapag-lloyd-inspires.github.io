@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Setup"
+title:  Einrichtung
 nav_order: 2
 ---
-# Einrichtung der Entwicklungsumgebung
+# Einrichtung
 
 ## Login
 Gehe auf [replit.com](https://replit.com/login) und melde dich an. Wenn du noch keinen Account hast, gehe auf [replit.com](https://replit.com/signup) und folge den Anweisungen um einen neuen Account zu erstellen.
@@ -38,3 +38,8 @@ Klicke auf den grünen `Run` Button um deine Webseite zu starten. In der linken 
 ![replit-hello-world.png](/images/replit-hello-world.png)
 
 Im nächsten Schritt wirst du lernen wie du den Inhalt deiner Webseite verändern kannst.
+
+{: .note-title }
+> todo
+> 1. Refresh
+> 2. open in new tab

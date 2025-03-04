@@ -1,1 +1,21 @@
-$link-color: $blue-200
+$link-color: $blue-200;
+
+dt::after {
+    display: none;
+}
+
+dt {
+    color: $link-color;
+}
+
+
+
+.code-example {
+    font: initial;
+    font-weight: initial;
+    line-height: initial;
+
+    .anchor-heading {
+        display: none
+    }
+}
