@@ -10,9 +10,15 @@ nav_external_links:
   - title: Color Picker
     url: https://www.w3schools.com/colors/colors_picker.asp
     opens_in_new_tab: true
+  - title: CSS Reference
+    url: https://cssreference.io/
+    opens_in_new_tab: true
 
 collections:
   tasks:
+    output: true
+    permalink: /:path/
+  next_steps:
     output: true
     permalink: /:path/
 
@@ -20,6 +26,8 @@ just_the_docs:
   collections:
     tasks:
       name: Aufgaben
+    next_steps:
+      name: Nächste Schritte
 
 enable_copy_code_button: false
 back_to_top: true
