@@ -24,3 +24,40 @@ Schriftarten sind ein wichtiger Bestandteil des Designs einer Webseite. Sie kön
 
 
 
+## Schriftart ändern
+
+Die Schriftart einer Webseite kann mit dem `font-family` Attribut geändert werden. Das Attribut nimmt eine Liste von Schriftarten an, die in der Reihenfolge angegeben werden, in der sie verwendet werden sollen. Wenn die erste Schriftart nicht verfügbar ist, wird die nächste Schriftart in der Liste verwendet.
+
+<div class="code-example">
+<style>
+.arial {
+    font-family: Arial, sans-serif;
+}
+.comic-sans {
+    font-family: 'Comic Sans MS', cursive;
+}
+</style>
+<p class="arial">Dieser Text ist in der Schriftart Arial.</p>
+<p class="comic-sans">Dieser Text ist in der Schriftart Comic Sans MS.</p>
+<p style="font-family: 'Courier New', Courier, monospace;">Dieser Text ist in der Schriftart Courier New.</p>
+</div>
+`style.css`
+```css
+.arial {
+    font-family: Arial, sans-serif;
+}
+.comic-sans {
+    font-family: 'Comic Sans MS', cursive;
+}
+```
+`index.html`
+```html
+<p class="arial">Dieser Text ist in der Schriftart Arial.</p>
+<p class="comic-sans">Dieser Text ist in der Schriftart Comic Sans MS.</p>
+<p style="font-family: 'Courier New', Courier, monospace;">Dieser Text ist in der Schriftart Courier New.</p>
+```
+
+{: .task }
+> 1. Ändere die Schriftart des Textes in deinem Projekt mit dem style-Attribut `font-family`.
+> 2. Ändere die Schriftart eines Absatzes in deinem Text mit einer Klasse in der `style.css` Datei.
+> 3. Probiere verschiedene Schriftarten aus und wähle diejenige aus, die dir am besten gefällt.
