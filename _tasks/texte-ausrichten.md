@@ -18,43 +18,29 @@ Die Ausrichtung eines Textes kann mit dem `text-align` Attribut geändert werden
 
 <div class="code-example">
 <style>
-.left {
-    text-align: left;
-}
 .center {
     text-align: center;
 }
-.right {
-    text-align: right;
-}
 </style>
 
-<p class="left">Dieser Text ist links ausgerichtet.</p>
+<p>Dieser Text ist links ausgerichtet.</p>
 <p class="center">Dieser Text ist zentriert.</p>
-<p class="right">Dieser Text ist rechts ausgerichtet.</p>
 </div>
 
 `style.css`
 ```css
-.left {
-    text-align: left;
-}
 .center {
     text-align: center;
-}
-.right {
-    text-align: right;
 }
 ```
 
 `index.html`
 ```html
-<p class="left">Dieser Text ist links ausgerichtet.</p>
+<p>Dieser Text ist links ausgerichtet.</p>
 <p class="center">Dieser Text ist zentriert.</p>
-<p class="right">Dieser Text ist rechts ausgerichtet.</p>
 ```
 
 {: .task }
-> 1. Füge deiner `style.css` Datei die Klassen `.left`, `.center` und `.right` hinzu.
-> 2. Ändere die Ausrichtung des Textes in deinem Projekt mit den Klassen `.left`, `.center` und `.right`.
+> 1. Füge deiner `style.css` Datei eine Klasse hinzu, welcher den Text zentriert. Füge diese Klasse einem Absatz in deinem Projekt hinzu.
+> 2. Erstelle eine Klasse, die den Text rechts ausrichtet und füge die Klasse einem weiteren Absatz in deinem Projekt hinzu.
 > 3. Experimentiere mit der Ausrichtung des Textes und finde heraus, welche Ausrichtung am besten zu deinem Design passt.
