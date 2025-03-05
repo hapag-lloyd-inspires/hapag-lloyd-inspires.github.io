@@ -10,13 +10,25 @@ nav_order: 4
 
 Jedes html-Element kann mit dem `style`-Attribut formatiert werden. Das `style`-Attribut enthält CSS-Regeln, die auf das Element angewendet werden.
 
-Das `<span>`-Element ist ein Inline-Element, das dazu verwendet wird, um Teile eines Textes zu formatieren. Es wird oft verwendet, um Textfarbe, Schriftgröße oder Schriftart zu ändern.
+Das `<span>`-Element ist ein Inline-Element, das dazu verwendet wird, um Teile eines Textes zu formatieren. Für sich genommen macht das `<span>`-Element keinen visuellen Unterschied:
 
 <div class="code-example py-3">
-<p>Im Jahr <span style="font-weight: bold;">2024</span> haben wir ...</p>
+
+<p>Das ist ein <span>normaler</span> Text.</p>
+
 </div>
 ```html
-<p>Im Jahr <span style="font-weight: bold;">2024</span> haben wir ...</p>
+<p>Das ist ein <span>normaler</span> Text.</p>
+```
+
+
+Das `<span>`-Element wird oft verwendet, um Textfarbe, Schriftgröße oder Schriftart zu ändern.
+
+<div class="code-example py-3">
+<p>Das ist ein <span style="font-weight: bold;">fetter</span> Text.</p>
+</div>
+```html
+<p>Das ist ein <span style="font-weight: bold;">fetter</span> Text.</p>
 ```
 
 Die Anweisungen, welche im style-Attribut stehen, sind CSS-Regeln. `font-weight: bold;` heißt auf Deutsch "Schriftgewicht: fett".
