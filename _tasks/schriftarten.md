@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Schriftarten
-nav_order: 7
+nav_order: 8
 ---
 
 # Schriftarten
@@ -58,6 +58,11 @@ Die Schriftart einer Webseite kann mit dem `font-family` Attribut geändert werd
 ```
 
 {: .task }
-> 1. Ändere die Schriftart des Textes in deinem Projekt mit dem style-Attribut `font-family`.
-> 2. Ändere die Schriftart eines Absatzes in deinem Text mit einer Klasse in der `style.css` Datei.
-> 3. Probiere verschiedene Schriftarten aus und wähle diejenige aus, die dir am besten gefällt.
+> 1. Ändere die Schriftart deiner Überschriften in deinem Projekt mit dem style-Attribut `font-family`. (`<h1 style="...`)
+> 2. Erstelle eine Klasse in deiner `style.css` Datei, die den Text in der Schriftart `Comic Sans MS` darstellt. Nenne sie zum Beispiel `comic-sans`.
+> 3. Verwende diese Klasse in deinem Projekt, um den Text in der Schriftart `Comic Sans MS` darzustellen.
+> 4. Mache das gleiche für zwei weitere Schriftarten
+
+{: .extra-task }
+Finde heraus, wie man die Schriftgröße mit dem `font-size` Attribut ändern kann. Suche in der [CSS Referenz](https://www.w3schools.com/cssref/index.php) nach der passenden CSS-Regel.
+

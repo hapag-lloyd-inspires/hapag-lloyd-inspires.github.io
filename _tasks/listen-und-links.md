@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Listen und Links
-nav_order: 3
+nav_order: 4
 ---
 
 # Listen und Links
@@ -51,18 +51,16 @@ Probiere aus, die Reihenfolge der Elemente in deiner geordneten Liste zu ändern
 
 Links sind eine Möglichkeit, von einer Webseite zu einer [anderen Webseite](https://www.w3schools.com) zu navigieren. 
 
-Links werden mit dem `<a>` (*"anchor"*) Tag erstellt. Das `href` (*"hypertext reference"*) Attribut gibt die URL der verlinkten Seite an.
+Links werden mit dem `<a>` (*"anchor"*) Tag erstellt. 
 
 <div class="code-example py-7">
 <p>
-Hapag-Lloyd ist ein Unternehmen, das sich auf den Transport von Containern spezialisiert hat. 
-Mehr Informationen <a href="https://www.hapag-lloyd.com">hier</a>.
+Die Webseite von Apple ist <a>apple.com</a>
 </p>
 </div>
 ```html
 <p>
-Hapag-Lloyd ist ein Unternehmen, das sich auf den Transport von Containern spezialisiert hat. 
-Mehr Informationen <a href="https://www.hapag-lloyd.com">hier</a>.
+Die Webseite von Apple ist <a>apple.com</a>
 </p>
 ```
 ![img.png](/images/replit-open-new-tab.png)
@@ -70,7 +68,33 @@ Mehr Informationen <a href="https://www.hapag-lloyd.com">hier</a>.
 Um Links zu einer anderen Webseite zu öffnen solltest den Webview in einem neuen Tab öffnen. Klicke dazu auf den Knop "New Tab" oben rechts in der Vorschau.
 
 {: .task }
-Erstelle drei Links zu Webseiten, die Informationen über dein Thema enthalten.
+Erstelle einen Link zu einer Webseite, die Informationen über dein Thema enthält.
+
+Hmm, noch können wir nicht auf die Webseite klicken. Das liegt daran, dass wir den Link noch nicht mit einer URL verknüpft haben.
+
+Das `href` Attribut wird verwendet, um die URL des Links anzugeben. Das, was zwischen den `<a>` Tags steht, ist lediglich der Text, der auf der Webseite angezeigt wird.
+
+<div class="code-example py-7">
+<p>
+Die Webseite von Apple ist <a href="https://www.apple.com">apple.com</a>
+</p>
+<p>
+    Die Webseite von Google ist <a href="https://www.google.com">hier</a>
+</p>
+</div>
+
+```html
+<p>
+Die Webseite von Apple ist <a href="https://www.apple.com">apple.com</a>
+</p>
+<p>
+    Die Webseite von Google ist <a href="https://www.google.com">hier</a>
+</p>
+```
+
+{: .task }
+Erstelle drei Links zu Webseiten, die Informationen über dein Thema enthalten. Überprüfe, ob die Links funktionieren.
+
 
 ## Links in Listen
 
@@ -96,3 +120,13 @@ Eine Webseite besteht aus folgenden Technologien:
 
 {: .task }
 Erstelle eine Liste mit Links zu Webseiten, die Informationen über dein Thema enthalten.
+
+{: .extra-task }
+Erstelle eine Liste, welche fette, kursiv und fett und kursiv geschriebene Datenpunkte enthält. Ein Beispiel siehst du unter der Aufgabe.
+
+<div class="code-example">
+<ul>
+  <li><span style="font-style: italic;">html</span></li>
+  <li><span style="font-weight: bold; ">W3Schools</span></li>
+  <li><span style="font-weight: bold; font-style: italic;">JavaScript</span></li>
+</ul>

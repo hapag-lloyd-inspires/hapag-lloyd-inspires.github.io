@@ -13,7 +13,9 @@ Im vorherigen Schritt haben wir ein neues Projekt erstellt und eine Vorschau ers
 - `style.css`
 - `script.js`
 
-Wir wollen uns jetzt auf die `index.html` Datei konzentrieren. Die `index.html` Datei ist die Startseite deiner Webseite. Hier wird der Inhalt deiner Webseite angezeigt. Bisher sieht sie folgendermaßen aus:
+Wir wollen uns jetzt auf die `index.html` Datei konzentrieren. Die `index.html` Datei ist die Startseite deiner Webseite. Hier wird der Inhalt und die Struktur deiner Webseite angezeigt. HTML steht für HyperText Markup Language. HTML besteht aus Elementen, die den Inhalt der Webseite strukturieren und formatieren.
+
+Bisher sieht `index.html` folgendermaßen aus:
 
 <div class="code-example py-7">
 Hello world
@@ -46,6 +48,9 @@ Folgende Elemente siehst du in der `index.html` Datei:
 - `<link>`: Dieses Element verweist auf eine externe Datei, in diesem Fall auf die `style.css` Datei. Dazu später mehr.
 - `<body>`: Dieses Element enthält den eigentlichen Inhalt der Webseite, wie Texte, Bilder und Links.
 
+Für die folgenden Aufgaben werden wir uns auf das `<body>` Element konzentrieren. Du kannst du restlichen Elemente erstmal ignorieren.
+
+{: .task }
 
 ## Texte ändern
 
@@ -180,6 +185,8 @@ Finde heraus, bis zu welcher `<h...>` Ebene du Überschriften verwenden kannst!
 
 
 ## Absätze
+
+Absätze können mit dem `<p>` Element hinzugefügt werden. Absätze sind nützlich, um Texte zu strukturieren und zu formatieren. Ohne Absätze kann der Text schwer zu lesen sein da der gesamte Text in einem Block angezeigt wird.
 
 <div class="code-example">
   <h2>Gegründet 1847 - geh mit uns auf Zeitreise</h2>

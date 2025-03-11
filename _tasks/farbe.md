@@ -12,10 +12,10 @@ Die Farbe des Textes kann mit dem `color`-Attribut geändert werden.
 Die Regel `color: red;` bedeutet "Farbe: rot".
 
 <div class="code-example py-3">
-<p>Das folgende Wort ist <span style="color: red;">rot.</span></p>
+<p>Meine Lieblingsfarben sind <span style="color: red;">rot</span>, <span style="color: orange;">orange</span> und <span style="color: green;">grün</span>.</p>
 </div>
 ```html
-<p>Das folgende Wort ist <span style="color: red;">rot.</span></p>
+<p>Meine Lieblingsfarben sind <span style="color: red;">rot</span>, <span style="color: orange;">orange</span> und <span style="color: green;">grün</span>.</p>
 ```
 
 {: .task }
@@ -30,17 +30,22 @@ Du kannst auch mit der css-Funktion `rgb()` Farben definieren. Die Funktion nimm
 Zum Beispiel bedeutet `rgb(255, 0, 0)` "rot" und `rgb(0, 255, 0)` "grün".
 
 <div class="code-example py-3">
-<p>Das folgende Wort ist <span style="color: rgb(0, 0, 255);">blau.</span></p>
-</div>
+<p>
+Meine Lieblingsfarben sind <span style="color: rgb(0, 0, 255);">blau</span>, <span style="color: rgb(255, 0, 0);">rot</span> und <span style="color: rgb(0, 255, 0);">grün</span>.
+</p></div>
 ```html
-<p>Das folgende Wort ist <span style="color: rgb(0, 0, 255);">blau.</span></p>
+<p>
+Meine Lieblingsfarben sind 
+<span style="color: rgb(0, 0, 255);">blau</span>, 
+<span style="color: rgb(255, 0, 0);">rot</span> und 
+<span style="color: rgb(0, 255, 0);">grün</span>.
+</p>
 ```
 
 {: .task }
-Probiere aus verschiedene Farben mit der `rgb()` Funktion zu definieren.
-
-{: .task }
-Gehe auf [w3schools.com](https://www.w3schools.com/colors/colors_picker.asp) und probiere verschiedene Farben aus.
+> - Färbe mindestens 3 Wörter in verschiedenen Farben mit dem englischen Namen der Farbe ein.
+> - Färbe mindestens 3 Wörter in verschiedenen Farben mit der rgb() Funktion ein.
+> - Färbe mindestens 3 Wörter in verschiedenen Farben mit den RGB-Werten vom [Color Picker](https://www.w3schools.com/colors/colors_picker.asp).
 
 ## Hintergrundfarbe
 
@@ -56,7 +61,27 @@ Neben der Textfarbe kann auch die Hintergrundfarbe eines Elements geändert werd
 ```
 
 {: .task }
-Markiere mindestens 10 Wörter deines Textes mit einer Hintergrundfarbe, als wären sie mit einem Textmarker markiert.
+Markiere mindestens 3 Wörter deines Textes mit einer Hintergrundfarbe, als wären sie mit einem Textmarker markiert.
+
+## Background-color und Textfarbe kombinieren
+
+Es ist auch möglich, die Hintergrundfarbe eines Elements zu ändern und gleichzeitig die Textfarbe zu ändern.
+
+<div class="code-example py-3">
+<p>
+    der
+    <span style="background-color: black; color: white;">Winter</span>
+</p>
+</div>
+```html
+<p>
+    der
+    <span style="background-color: black; color: white;">Winter</span>
+</p>
+```
+
+{: .task }
+Färbe mindestens 3 Wörter in deinem Text so ein, dass die Hintergrundfarbe und die Textfarbe unterschiedlich sind.
 
 ## Hintergrundfarbe eines Absatzes ändern
 
@@ -86,4 +111,6 @@ Jetzt haben wir schon mal einiges an Farbe auf unsere Webseite gebracht. In den 
 Füge deinem Text mindestens einen Absatz hinzu, der eine Hintergrundfarbe hat und eine andere Textfarbe. Kombiniere verschiedene css-Regeln, sodass deine Seite interessanter aussieht.
 
 {: .extra-task }
-Finde heraus wie Hexfarben (z.B. #ff0000) funktionieren und probiere sie aus.
+> Ändere die Farbe jedes Buchstabens einer Überschrift in eine andere Farbe. Zum Beispiel:
+> 
+> <span style="color: red;">H</span><span style="color: orange;">a</span><span style="color: yellow;">p</span><span style="color: green;">a</span><span style="color: blue;">g</span><span style="color: indigo;">-</span><span style="background-color: violet;">L</span><span style="color: white; background-color: red;">l</span><span style="background-color: orange; color: white">o</span><span style="background-color: yellow;">y</span><span style="background-color: green; color: white">d</span> oder  <span style="background-color: orange; color: white;">H</span><span style="background-color: blue; color: white;">a</span><span style="background-color: orange; color: white;">p</span><span style="background-color: blue; color: white;">a</span><span style="background-color: orange; color: white;">g</span><span style="background-color: blue; color: white;">-</span><span style="background-color: orange; color: white;">L</span><span style="background-color: blue; color: white;">l</span><span style="background-color: orange; color: white;">o</span><span style="background-color: blue; color: white;">y</span><span style="background-color: orange; color: white;">d</span> 

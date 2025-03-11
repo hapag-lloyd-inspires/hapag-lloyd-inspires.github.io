@@ -13,9 +13,6 @@ nav_external_links:
   - title: CSS Reference
     url: https://cssreference.io/
     opens_in_new_tab: true
-  - title: Beispiel
-    url: /examples/hapag-lloyd-1/
-    opens_in_new_tab: true
 
 collections:
   tasks:

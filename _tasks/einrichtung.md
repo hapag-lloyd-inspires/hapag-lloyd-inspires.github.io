@@ -38,8 +38,3 @@ Klicke auf den grünen `Run` Button um deine Webseite zu starten. In der linken 
 ![replit-hello-world.png](/images/replit-hello-world.png)
 
 Im nächsten Schritt wirst du lernen wie du den Inhalt deiner Webseite verändern kannst.
-
-{: .note-title }
-> todo
-> 1. Refresh
-> 2. open in new tab
