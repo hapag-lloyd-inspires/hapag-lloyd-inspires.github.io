@@ -92,235 +92,200 @@ Das `<div>`-Element ist ein Container-Element, das verwendet wird, um andere Ele
 Ein Beispiel:
 
 <div class="code-example">
-<div>
-    <h1>Überschrift</h1>
-    <p>Ein Absatz mit Text.</p>
-</div>
+<div>ein Div</div>
 </div>
 
 ```html
-<div>
-    <h1>Überschrift</h1>
-    <p>Ein Absatz mit Text.</p>
-</div>
+<div>ein Div</div>
 ```
 
-Wie du siehst macht das `<div>`-Element keinen visuellen Unterschied. 
+Wie du siehst, macht das `<div>`-Element keinen visuellen Unterschied. Es ist nur ein Container, der verwendet wird, um andere Elemente zu gruppieren.
 
-Aber: was ist, wenn wir sowohl die Überschrift als auch den Absatz mit einer anderen Hintergrundfarbe haben möchten?
-
-Probieren wir aus, was passiert, wenn wir die Hintergrundfarbe des `<h1>`-Elements und des `<p>`-Elements ändern:
+Wir können dem div auch eine Klasse hinzufügen:
 
 <div class="code-example">
-<div>
-    <h1 class="hintergrund-rot">Überschrift</h1>
-    <p class="hintergrund-rot">Ein Absatz mit Text.</p>
-</div>
-</div>
-
-```html
-<div>
-    <h1 class="hintergrund-rot">Überschrift</h1>
-    <p class="hintergrund-rot">Ein Absatz mit Text.</p>
-</div>
-```
-
-Hmm, das hat nicht funktioniert. Die Hintergrundfarbe wurde nur auf den Text angewendet, nicht auf den gesamten Abschnitt.
-
-<div class="code-example">
-<div class="hintergrund-rot">
-    <h1>Überschrift</h1>
-    <p>Ein Absatz mit Text.</p>
-</div>
-</div>
-
-```html
-<div class="hintergrund-rot">
-    <h1>Überschrift</h1>
-    <p>Ein Absatz mit Text.</p>
-</div>
-```
-
-## Breite von Divs
-
-Ähnlich wie Bilder können divs auch eine Breite haben:
-
-<div class="code-example">
-<div class="meine-box-1" style="width: 200px;">
-<p>Meine Box</p>
-</div>
+<div style="background-color: cornflowerblue">ein Div</div>
 </div>
 
 `style.css`
 ```css
-.meine-box {
-    background-color: lightblue;
-    width: 200px;
+.box {
+    background-color: cornflowerblue;
 }
 ```
 
+`index.html`
 ```html
-<div class="meine-box">
-<p>Meine Box</p>
-</div>
+<div class="box">ein Div</div>
 ```
 
-{: .task }
-Erstelle eine Box wie oben. Ändere die Breite der Box und beobachte, was passiert.
+Und eine Breite:
+
+<div class="code-example">
+<div style="background-color: cornflowerblue; width: 200px;">ein Div</div>
+</div>
+
+`style.css`
+```css
+.box {
+    background-color: cornflowerblue;
+    width: 200px;
+}
+```
 
 ## Padding
 
-Padding ist der Abstand zwischen dem Inhalt eines Elements und seinem Rand. Es wird verwendet, um den Inhalt eines Elements von seinem Rand zu trennen und ihm mehr Platz zu geben.
-
-Das Padding kann mit CSS definiert werden. Die Werte können in Pixeln oder Prozent angegeben werden.
-
-Ein Beispiel:
+Außerdem können wir dem div auch padding hinzufügen. Padding ist der Abstand zwischen dem Inhalt des Elements und seinem Rand:
 
 <div class="code-example">
-<div class="meine-box-mit-padding">
-<p>Meine Box</p>
-</div>
+<div style="background-color: cornflowerblue; width: 200px; padding: 30px;">ein Div</div>
 </div>
 
+`style.css`
 ```css
-.meine-box {
-    background-color: lightblue;
+.box {
+    background-color: cornflowerblue;
     width: 200px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 10px;
+    padding: 30px;
 }
 ```
 
-```html
-<div class="meine-box">
-<p>Meine Box</p>
-</div>
-```
+Wie du siehst bedeutet `padding: 30px;`, dass der Abstand zwischen dem Inhalt des Elements und allen 4 Rändern 30 Pixel beträgt.
 
-{: .task }
-Erstelle eine Box wie oben. Ändere das Padding der Box und beobachte, was passiert.
+
 
 ## Margin
 
-Margin ist der Abstand zwischen den Rändern von zwei Elementen. Es wird verwendet, um den Abstand zwischen den Elementen zu steuern und ihnen mehr Platz zu geben.
-
-Beispiel:
+Lass uns auch noch den Margin hinzufügen. Margin ist der Abstand zwischen den Rändern von zwei Elementen:
 
 <div class="code-example">
-<div class="box box-1">
-<p>Box 1</p>
-</div>
-<div class="box box-2">
-<p>Box 2</p>
-</div>
+<div style="background-color: cornflowerblue; width: 200px; padding: 30px; margin: 50px">ein Div</div>
+
 </div>
 
+`style.css`
 ```css
-.box-1 {
-    background-color: blue;
+.box {
+    background-color: cornflowerblue;
     width: 200px;
-    padding: 10px;
-}
-
-.box-2 {
-    background-color: red;
-    width: 300px;
-    padding: 10px;
+    padding: 30px;
+    margin: 50px;
 }
 ```
 
-```html
-<div class="box-1">
-    <p>Box 1</p>
-</div>
-<div class="box-2">
-    <p>Box 2</p>
-</div>
-```
 
-Die Boxen haben keinen Abstand zwischen ihnen. Was passiert, wenn wir Margin hinzufügen?
+
+{: .task }
+> 1. Erstelle ein `<div>` Element und füge dem Element eine Klasse hinzu.
+> 2. Füge die Klasse in deiner `style.css` Datei hinzu. Denk daran den `.` vor dem Klassennamen zu setzen.
+> 3. Ändere folgendes an deinem `<div>` Element mit der Klasse:
+>    1. Hintergrundfarbe
+>    2. Breite
+>    3. Padding
+>    4. Margin
+> 4. Füge ein weiteres `<div>` Element hinzu und füge ihm eine andere Klasse hinzu. Wiederhole die Schritte 2 und 3.
+
+## Padding auf einer Seite
+
+Wir können auch nur das Padding auf einer Seite anwenden:
 
 <div class="code-example">
-<div class="box box-1 margin-bottom-10">
-<p>Box 1</p>
-</div>
-<div class="box box-2">
-<p>Box 2</p>
-</div>
+<div style="background-color: cornflowerblue; width: 200px; padding-top: 30px;">ein Div</div>
 </div>
 
+`style.css`
 ```css
-.box-1 {
-    background-color: blue;
+.box {
+    background-color: cornflowerblue;
     width: 200px;
-    padding: 10px;
-}
-
-.box-2 {
-    background-color: red;
-    width: 300px;
-    padding: 10px;
-}
-.margin-bottom-10 {
-    margin-bottom: 10px;
+    padding-top: 30px;
 }
 ```
 
-```html
-<div class="box-1 margin-bottom-10">
-    <p>Box 1</p>
-</div>
-<div class="box-2">
-    <p>Box 2</p>
-</div>
-```
+## Margin auf einer Seite
 
-Wir können auch Margin auf anderen Seiten anwenden, zum Beispiel Links:
+Wir können auch nur den Margin auf einer Seite anwenden:
 
 <div class="code-example">
-<div class="box box-1 margin-bottom-10 margin-left-50">
-<p>Box 1</p>
-</div>
-<div class="box box-2">
-<p>Box 2</p>
-</div>
+<div style="background-color: cornflowerblue; width: 200px; padding: 30px; margin-top: 50px">ein Div</div>
 </div>
 
+`style.css`
 ```css
-.box-1 {
-    background-color: blue;
+
+.box {
+    background-color: cornflowerblue;
     width: 200px;
-    padding: 10px;
+    padding: 30px;
+    margin-top: 50px;
 }
-
-.box-2 {
-    background-color: red;
-    width: 300px;
-    padding: 10px;
-}
-.margin-bottom-10 {
-    margin-bottom: 10px;
-}
-.margin-left-50 {
-    margin-left: 50px;
-}
-```
-
-```html
-<div class="box-1 margin-bottom-10 margin-left-50">
-    <p>Box 1</p>
-</div>
-<div class="box-2">
-    <p>Box 2</p>
-</div>
 ```
 
 {: .task }
-> 1. Erstelle zwei Boxen wie oben. Experimentiere mit dem Margin und finde heraus, wie es das Layout beeinflusst.
-> 2. Füge einer der Boxen einen Rahmen hinzu. Experimentiere mit dem Padding und finde heraus, wie es das Layout beeinflusst.
+> Experimentiere mit dem Padding und Margin auf einer Seite. 
 
-## Anwendung von Margin und Padding
+## Kurze Schreibweise für Padding und Margin
+
+Es gibt auch eine Kurzschreibweise für Padding und Margin:
+
+<div class="code-example">
+<div style="background-color: cornflowerblue; width: 200px; margin: 1px 50px;">ein Div</div>
+</div>
+
+`style.css`
+```css
+.box {
+    background-color: cornflowerblue;
+    width: 200px;
+    margin: 10px 50px;
+}
+```
+
+Was bedeutet das? Die erste Zahl ist der Abstand oben und unten, die zweite Zahl ist der Abstand links und rechts. Das bedeutet `margin: 30px 50px;` ist das gleiche wie `margin-top: 30px; margin-bottom: 30px; margin-left: 50px; margin-right: 50px;`.
+
+Wenn wir zum Beispiel nur den Margin oder das Padding links und rechts ändern wollen, können wir das so machen:
+
+<div class="code-example">
+<div style="background-color: cornflowerblue; width: 200px; padding: 0 30px; margin: 0 50px;">ein Div</div>
+</div>
+
+`style.css`
+```css
+.box {
+    background-color: cornflowerblue;
+    width: 200px;
+    padding: 0 30px;
+    margin: 0 50px;
+}
+```
+
+{: .task }
+> Experimentiere mit der Kurzschreibweise für Padding und Margin.
+
+## Divs Zentrieren
+
+
+Wir können auch divs zentrieren:
+
+<div class="code-example">
+<div style="background-color: cornflowerblue; width: 200px; padding: 30px; margin: 0 auto;">ein Div</div>
+</div>
+
+`style.css`
+```css
+.box {
+    background-color: cornflowerblue;
+    width: 200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+```
+
+{: .task }
+> Wenn es zu deinem Design passt, zentriere einige deiner divs.
+
+
+## Beispiele mit Margin und Padding
 
 Margin und Padding sind zwei wichtige Konzepte in CSS, um mächtige Design umzusetzen. Zum Beipsiel kannst du folgendes machen:
 
@@ -349,10 +314,7 @@ Margin und Padding sind zwei wichtige Konzepte in CSS, um mächtige Design umzus
 }
 
 .padding-50 {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 .padding-links-100 {
@@ -370,11 +332,65 @@ Margin und Padding sind zwei wichtige Konzepte in CSS, um mächtige Design umzus
     <h1>Willkommen!</h1>
     <p>Das ist ein Abschnitt auf deiner Webseite</p>
 </div>
-<div class="hintergrund-rot text-weiss padding-50 margin-obenunten-20">
+<div class="hintergrund-rot text-weiss padding-50 margin-obenunten-20 padding-links-100">
     <h1>Über uns</h1>
     <p>Das ist ein weiterer Abschnitt</p>
 </div>
 ```
+
+
+## Elemente mittig ausrichten
+
+Wenn du ein `div` Element hast, kannst du es mittig ausrichten, indem du `margin: 0 auto;` in der `style.css` Datei hinzufügst.
+
+<div class="code-example py-7">
+<style>
+.container {
+    width: 50%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.center-container {
+    margin: 0 auto;
+}
+</style>
+<div class="container">
+    <p>Ich bin in einem Container.</p>
+    <p>Ich bin in einem Container.</p>
+</div>
+<div class="container center-container">
+    <p>Ich bin in einem Container.</p>
+    <p>Ich bin in einem Container.</p>
+</div>
+</div>
+`index.html`
+```html
+<div class="container">
+    <p>Ich bin in einem Container.</p>
+    <p>Ich bin in einem Container.</p>
+</div>
+<div class="container center-container">
+    <p>Ich bin in einem Container.</p>
+    <p>Ich bin in einem Container.</p>
+</div>
+```
+`style.css`
+```css
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.center-container {
+    margin: 0 auto;
+}
+```
+
+{: .task }
+Erstelle einen Container und richte ihn mittig aus.
 
 {: .task }
 Experimentiere heraus, wie du das neu gelernte am Besten in deinem Projekt verwenden kannst.

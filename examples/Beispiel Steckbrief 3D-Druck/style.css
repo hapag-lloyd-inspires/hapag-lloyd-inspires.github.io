@@ -1,0 +1,32 @@
+h1{
+    color: #1ad366;
+  }
+  
+  body {
+    font-family: Orienta;
+    background-color: #3644af;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .steckbrief {
+    text-align: left;
+  }
+  
+  .zitat {
+    text-align: center;
+    font-size: 1.3em;
+    color: #1ad366;
+  }
+  
+  img {
+    max-width: 400px;
+  }
+  
+  a{
+    color: #56d2ff;
+  }
+  
+  b {
+    color: #56d2ff;
+  }

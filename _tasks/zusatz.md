@@ -146,58 +146,6 @@ Ein weiteres Feature, das wir hinzufügen können, ist ein Hover-Effekt. Wenn de
 {: .task }
 Füge einen Hover-Effekt zu deinem Knopf hinzu.
 
-## Elemente mittig ausrichten
-
-Wenn du ein `div` Element hast, kannst du es mittig ausrichten, indem du `margin: 0 auto;` in der `style.css` Datei hinzufügst.
-
-<div class="code-example py-7">
-<style>
-.container {
-    width: 50%;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-.center-container {
-    margin: 0 auto;
-}
-</style>
-<div class="container">
-    <p>Ich bin in einem Container.</p>
-    <p>Ich bin in einem Container.</p>
-</div>
-<div class="container center-container">
-    <p>Ich bin in einem Container.</p>
-    <p>Ich bin in einem Container.</p>
-</div>
-</div>
-`index.html`
-```html
-<div class="container">
-    <p>Ich bin in einem Container.</p>
-    <p>Ich bin in einem Container.</p>
-</div>
-<div class="container center-container">
-    <p>Ich bin in einem Container.</p>
-    <p>Ich bin in einem Container.</p>
-</div>
-```
-`style.css`
-```css
-.container {
-    width: 50%;
-    margin: 0 auto;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-.center-container {
-    margin: 0 auto;
-}
-```
-
-{: .task }
-Erstelle einen Container und richte ihn mittig aus.
 
 ## Container und Texte zentrieren
 

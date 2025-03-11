@@ -92,7 +92,7 @@ Wir können jetzt einfach über die Klasse `marker` in der `style.css` Datei den
 }
 ```
 
-
+{: .important }
 Füge Klassen in deiner `style.css` Datei hinzu. **Wichtig**: Klassen in css beginnen mit einem Punkt `.`. In html werden sie ohne Punkt verwendet.
 
 {: .task }

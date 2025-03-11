@@ -204,6 +204,8 @@ Absätze können mit dem `<p>` Element hinzugefügt werden. Absätze sind nützl
 ...
 ```
 
+Es ist wichtig, dass Text immer in Elementen wie `<p>`, `<h1>`, `<h2>`, `<h3>` oder anderen Elementen eingefügt wird. Das hilft dabei, den Text zu strukturieren und zu formatieren.
+
 {: .task }
 Füge deinem Text Absätze hinzu. Verwende dazu das `<p>` Element.
 

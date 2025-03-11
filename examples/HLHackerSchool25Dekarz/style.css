@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Arial';
+}
+
+p {
+  font-family: 'Courier New';
+  text-align: center;
+}
+
+.marker {
+  background-color: yellow;
+}
+
+.cooler-titel {
+  background-color:  #cc0000;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}

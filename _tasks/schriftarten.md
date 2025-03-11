@@ -63,6 +63,43 @@ Die Schriftart einer Webseite kann mit dem `font-family` Attribut geändert werd
 > 3. Verwende diese Klasse in deinem Projekt, um den Text in der Schriftart `Comic Sans MS` darzustellen.
 > 4. Mache das gleiche für zwei weitere Schriftarten
 
-{: .extra-task }
-Finde heraus, wie man die Schriftgröße mit dem `font-size` Attribut ändern kann. Suche in der [CSS Referenz](https://www.w3schools.com/cssref/index.php) nach der passenden CSS-Regel.
+## Schriftgröße ändern
+
+Die Schriftgröße eines Textes kann mit dem `font-size` Attribut geändert werden. Der Wert des `font-size` Attributs gibt die Größe der Schrift in Pixeln an. Die Abkürzung `px` steht für Pixel.
+
+<div class="code-example">
+<p style="font-size: 8px;">Dieser Text hat eine Schriftgröße von 8 Pixeln.</p>
+<p style="font-size: 16px;">Dieser Text hat eine Schriftgröße von 16 Pixeln.</p>
+<p style="font-size: 24px;">Dieser Text hat eine Schriftgröße von 24 Pixeln.</p>
+<p style="font-size: 36px;">Dieser Text hat eine Schriftgröße von 36 Pixeln.</p>
+</div>
+
+`style.css`
+```css
+.text-small {
+    font-size: 8px;
+}
+
+.text-medium {
+    font-size: 16px;
+}
+
+.text-large {
+    font-size: 24px;
+}
+```
+
+`index.html`
+```html
+<p class="text-small">Dieser Text hat eine Schriftgröße von 8 Pixeln.</p>
+<p class="text-medium">Dieser Text hat eine Schriftgröße von 16 Pixeln.</p>
+<p class="text-large">Dieser Text hat eine Schriftgröße von 24 Pixeln.</p>
+<p style="font-size: 36px;">Dieser Text hat eine Schriftgröße von 36 Pixeln.</p>
+```
+
+{: .task }
+
+> 1. Ändere die Schriftgröße deiner Überschriften in deinem Projekt mit dem style-Attribut `font-size`. (`<h1 style="...`)
+> 2. Erstelle Klassen in deiner `style.css` Datei, die die Schriftgröße des Textes ändern. Nenne sie zum Beispiel `text-xs`, `text-small`, `text-medium`, `text-large` und `text-xl`
+> 3. Verwende diese Klassen in deinem Projekt, um die Schriftgröße des Textes zu ändern.
 
