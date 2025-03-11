@@ -394,3 +394,48 @@ Erstelle einen Container und richte ihn mittig aus.
 
 {: .task }
 Experimentiere heraus, wie du das neu gelernte am Besten in deinem Projekt verwenden kannst.
+
+## Divs mit Rand
+
+Übrigens, du kannst auch einen Rand um ein `div` Element hinzufügen. Dazu fügst du `border` in der `style.css` Datei hinzu.
+
+<div class="code-example py-7">
+<style>
+.box-mit-border {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(44, 132, 250);
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+</style>
+<div class="box-mit-border">
+    <p>Ich bin ein div mit Rand.</p>
+</div>
+</div>
+`index.html`
+```html
+<div class="box-mit-border">
+    <p>Ich bin ein div mit Rand.</p>
+</div>
+```
+`style.css`
+```css
+.box-mit-border {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(44, 132, 250);
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+```
+
+{: .task }
+Erstelle ein `div` Element mit einem Rand.
+
+{: .extra-task }
+Probiere andere `border-style` Werte aus, wie `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, `outset`.
