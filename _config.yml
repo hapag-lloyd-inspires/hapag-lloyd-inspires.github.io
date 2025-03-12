@@ -10,12 +10,6 @@ nav_external_links:
   - title: Color Picker
     url: https://www.w3schools.com/colors/colors_picker.asp
     opens_in_new_tab: true
-  - title: CSS Reference
-    url: https://cssreference.io/
-    opens_in_new_tab: true
-  - title: Replit Links teilen
-    url: https://docs.google.com/document/d/1fOvmoz4n6E1EdwYIdGIiqdxinzua_ZaY_Tq4bDQJF3k/edit?usp=sharing
-    opens_in_new_tab: true
 
 collections:
   tasks:

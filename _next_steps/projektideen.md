@@ -1,16 +1,18 @@
 ---
 title: Projektideen
 layout: home
-nav_order: 99
+nav_order: 3
 ---
 ## Kontakt
 Falls ihr nach der Hackerschool noch Fragen habt könnt ihr uns unter [hackerschool@hlag.com](mailto:hackerschool@hlag.com) kontaktieren.
 
 ## Mit 10 Fingern schreiben
 
-Eine wichtige Fähigkeit, die ihr euch aneignen solltet, ist das schnelle und effiziente Schreiben mit 10 Fingern. Es gibt viele kostenlose Online-Tools, die euch dabei helfen können, diese Fähigkeit zu erlernen.
+Eine wichtige Fähigkeit, die ihr euch aneignen solltet, ist das schnelle und effiziente Schreiben mit 10 Fingern.
 
-Die Webseite [Tipp10](https://www.tipp10.com/de/) ist ein gutes Beispiel für ein solches Tool. Es bietet viele Übungen und Lektionen, um das Schreiben mit 10 Fingern zu erlernen. Wenn ihr täglich übt, werdet ihr schnell Fortschritte machen. Wichtig ist auch immer mit 10 Fingern zu schreiben, auch wenn es am Anfang langsamer ist.
+Auf [Tipp10](https://www.tipp10.com/de/) kann man sehr gut 10-Finger Schreiben lernen. 
+
+Wenn ihr täglich übt, werdet ihr schnell Fortschritte machen. Wichtig ist auch immer mit 10 Fingern zu schreiben, auch wenn es am Anfang langsamer ist.
 
 ## Projektideen
 Am besten lernen wir durch das Anwenden unseres Wissens. Es ist am besten, wenn ihr ein konkretes Ziel habt, das ihr erreichen wollt, zum Beispiel einen Blog zu erstellen oder ein Plattformspiel zu programmieren.
