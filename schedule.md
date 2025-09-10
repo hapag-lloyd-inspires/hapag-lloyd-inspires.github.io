@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # Zeitplan
 
-## Dienstag
+## Mittwoch
 <dl>
     <dt>10:00 - 11:00</dt>
     <dd>Einführung und Kennenlernen</dd>
@@ -23,7 +23,7 @@ nav_order: 2
     <dd>Abschlussrunde</dd>
 </dl>
 
-## Mittwoch
+## Donnerstag
 
 <dl>
     <dt>10:00 - 11:00</dt>
