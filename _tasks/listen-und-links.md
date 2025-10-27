@@ -63,9 +63,6 @@ Die Webseite von Apple ist <a>apple.com</a>
 Die Webseite von Apple ist <a>apple.com</a>
 </p>
 ```
-![img.png](/images/replit-open-new-tab.png)
-
-Um Links zu einer anderen Webseite zu öffnen solltest den Webview in einem neuen Tab öffnen. Klicke dazu auf den Knop "New Tab" oben rechts in der Vorschau.
 
 {: .task }
 Erstelle einen Link zu einer Webseite, die Informationen über dein Thema enthält.
@@ -130,3 +127,4 @@ Erstelle eine Liste, welche fette, kursiv und fett und kursiv geschriebene Daten
   <li><span style="font-weight: bold; ">W3Schools</span></li>
   <li><span style="font-weight: bold; font-style: italic;">JavaScript</span></li>
 </ul>
+</div>
