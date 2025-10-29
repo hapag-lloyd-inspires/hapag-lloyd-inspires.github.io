@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Aufgaben
-nav_order: 2
+nav_order: 0
 ---
 # Aufgaben
 
@@ -36,7 +36,7 @@ Zusatz
 ## Teil 3: Css
 
 
-## Schon fertig mit den Aufgaben von einem Teil?
+## Schon fertig mit den Aufgaben?
 - Füge Emoji's auf deine Webseite ein. [Hier](https://www.w3schools.com/html/html_emojis.asp) findest du ein Tutorial.
 - Füge ein YouTube Video über auf deiner Seite ein. [Hier](https://www.w3schools.com/html/html_youtube.asp) sind mehr Informationen darüber.
 - Lerne, wie man das [Canvas](https://www.w3schools.com/html/html5_canvas.asp) Element benutzt und erarbeite einen 5-Minuten Vortrag mit einem Beispiel. [Hier](https://www.w3schools.com/tags/ref_canvas.asp) sind noch mehr Beispiele.
