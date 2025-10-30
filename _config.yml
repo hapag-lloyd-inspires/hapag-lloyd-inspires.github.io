@@ -11,6 +11,10 @@ nav_external_links:
     url: https://www.w3schools.com/colors/colors_picker.asp
     opens_in_new_tab: true
 
+  - title: Präsentation
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=oVHjnJutPkC_Oxo-05AClxqp-ot3QrpJqPL7mYed7qtUNkg2Q0dXNDRLOVkxS1IxSVJLU1RaWTNBTS4u
+    opens_in_new_tab: true
+
 collections:
   tasks:
     output: true
