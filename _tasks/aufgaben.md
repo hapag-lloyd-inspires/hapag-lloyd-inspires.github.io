@@ -92,7 +92,7 @@ a {
 }
 ```
 5. Verwende die css-Eigenschaft `text-align: ...;` für deine Überschriften und Absätze. Die Verwendung findest du [hier](https://developer.mozilla.org/de/docs/Web/CSS/text-align).
-6. Zusatz: Finde heraus wie man die Funktion `linear-gradient(...)` verwendet.
+6. Zusatz: Finde heraus wie man die Funktion `linear-gradient(...)` verwendet. [Erklärung](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
 
 ## Border, padding und marging
 1. Füge allen deinen Bildern einen Rahmen hinzu.
