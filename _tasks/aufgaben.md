@@ -83,20 +83,40 @@ p {
    ...
    font-family: "Lucida Console";
 }
-
-h1 {
-  ...
-  font-family: ...;
-}
-h2 { ... }
-h3 { ... }
 ```
-
-4. Ändere die Farbe und Schriftart aller deiner Links. Tipp: Nutze die Form `a { ... }` im css-Teil deiner Webseite.
-5. Verwende die css-Eigenschaft für deine Überschriften und Absätze. Die Verwendung findest du [hier](https://developer.mozilla.org/de/docs/Web/CSS/text-align).
+4. Ändere die Farbe und Schriftart aller deiner Links. Tipp: 
+```css
+a {
+    color: ...;
+    font-family: ...;
+}
+```
+5. Verwende die css-Eigenschaft `text-align: ...;` für deine Überschriften und Absätze. Die Verwendung findest du [hier](https://developer.mozilla.org/de/docs/Web/CSS/text-align).
+6. Zusatz: Finde heraus wie man die Funktion `linear-gradient(...)` verwendet.
 
 ## Border, padding und marging
-1. Füge deinen Bildern einen Rahmen hinzu.
+1. Füge allen deinen Bildern einen Rahmen hinzu.
+
+```css
+img {
+    border-color: green;
+    border-style: dot-dot-dash;
+    border-width: 2px;
+}
+```
+2. Füge auch deinen überschriften einen Rahmen hinzu.
+3. Ändere das Polster zwischen Rahmen und Inhalt deiner Überschriften. Nutze dafür die `padding-...` Eigenschaften.
+```css
+h1 {
+    ...
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+```
+4. Füge deinen Absätzen einen Abstand hinzu. Verwende dazu die `margin-...` Eigenschaften.
+5. Füge horizontale Linien hinzu. Verwende dazu `border-left-style: ...;` und ähnliche Eigenschaften. [Hier](https://developer.mozilla.org/de/docs/Web/CSS/border#formale_definition) findest du eine Liste.
+6. Verwende die Eigenschaft `border-radius`. 
 
 ## Schon fertig mit den Aufgaben?
 - Füge Emoji's auf deine Webseite ein. [Hier](https://www.w3schools.com/html/html_emojis.asp) findest du ein Tutorial.
