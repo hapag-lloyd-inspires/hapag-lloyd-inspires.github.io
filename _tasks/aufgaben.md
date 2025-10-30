@@ -21,7 +21,7 @@ Beispiele:
 4. Erstelle eine Liste. Verwende dazu die Elemente `ul` und `li`.
 5. Füge eine horizontale Linie mit dem `hr` Element hinzu.
 Zusatz:
-6. <mark>markiert</mark> wichtigen Text auf deiner Webseite. Lese dazu [diesen Artikel](https://developer.mozilla.org/de/docs/Web/HTML/Reference/Elements/mark).
+6. Markiere wichtigen Text auf deiner Webseite. Lese dazu [diesen Artikel](https://developer.mozilla.org/de/docs/Web/HTML/Reference/Elements/mark).
 7. Erstelle eine Tabelle. Lies dazu [diesen Artikel](https://www.w3schools.com/html/html_tables.asp).
 
 ## Teil 2: Attribute, Bilder und Farben
@@ -35,7 +35,7 @@ Zusatz
 
 ## Teil 3: Css 
 1. Erstelle ein html, head, style und body Element für deine Seite
-```
+```html
 <html>
 <head>
 <style>
@@ -48,16 +48,15 @@ Zusatz
 </html
 ```
 2. Ändere die Hintergrundfarbe der gesamten Webseite.
-```
+```html
 <style>
 body {
     background-color: rgb(194, 214, 214);
 }
 </style>
 ```
-
 2. Ändere die Farbe und Schriftgröße aller Absätze. 
-```
+```html
 <style>
 p {
   color: rgb(0, 0, 0);
@@ -68,9 +67,10 @@ p {
 h1 {
   /* wie oben */
 }
+</style>
 ```
 3. Ändere die Schriftart aller Absätze sowie aller h1, h2 und h3 überschriften. [Hier](https://www.w3schools.com/css/css_font.asp) findest du mögliche Schriftarten. 
-```
+```html
 p {
    ...
    font-family: "Lucida Console";
@@ -84,6 +84,10 @@ h2 { ... }
 h3 { ... }
 ```
 4. Ändere die Farbe und Schriftart aller deiner Links. Tipp: Nutze die Form `a { ... }` im css-Teil deiner Webseite.
+5. Verwende die css-Eigenschaft für deine Überschriften und Absätze. Die Verwendung findest du [hier](https://developer.mozilla.org/de/docs/Web/CSS/text-align).
+
+## Border, padding und marging
+1. Füge deinen Bildern einen Rahmen hinzu.
 
 ## Schon fertig mit den Aufgaben?
 - Füge Emoji's auf deine Webseite ein. [Hier](https://www.w3schools.com/html/html_emojis.asp) findest du ein Tutorial.
