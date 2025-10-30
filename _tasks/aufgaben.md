@@ -33,8 +33,57 @@ Zusatz
 4. Finde heraus, wie man im `style` Attribut einen Absatz oder eine Überschrift zentriert. Schau dir [hier](https://www.w3schools.com/css/css_text_align.asp) die `text-align` Eigenschaft an.
 5. Finde heraus, wie man einen Rahmen um einen Absatz oder eine Überschrift setzt. Erstelle mindestens 3 Rahmen mit unterschiedlicher Stärke, Farbe und Style. [Hier](https://www.w3schools.com/css/css_border.asp) findest du eine Anleitung dazu.
 
-## Teil 3: Css
+## Teil 3: Css 
+1. Erstelle ein html, head, style und body Element für deine Seite
+```
+<html>
+<head>
+<style>
+  /* deine css Anweisungen */
+</style>
+</head>
+<body>
+  <!-- Dein bisheriger Quelltext -->
+</body>
+</html
+```
+2. Ändere die Hintergrundfarbe der gesamten Webseite.
+```
+<style>
+body {
+    background-color: rgb(194, 214, 214);
+}
+</style>
+```
 
+2. Ändere die Farbe und Schriftgröße aller Absätze. 
+```
+<style>
+p {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+
+h1 {
+  /* wie oben */
+}
+```
+3. Ändere die Schriftart aller Absätze sowie aller h1, h2 und h3 überschriften. [Hier](https://www.w3schools.com/css/css_font.asp) findest du mögliche Schriftarten. 
+```
+p {
+   ...
+   font-family: "Lucida Console";
+}
+
+h1 {
+  ...
+  font-family: ...;
+}
+h2 { ... }
+h3 { ... }
+```
+4. Ändere die Farbe und Schriftart aller deiner Links. Tipp: Nutze die Form `a { ... }` im css-Teil deiner Webseite.
 
 ## Schon fertig mit den Aufgaben?
 - Füge Emoji's auf deine Webseite ein. [Hier](https://www.w3schools.com/html/html_emojis.asp) findest du ein Tutorial.
