@@ -35,6 +35,7 @@ Zusatz
 
 ## Teil 3: Css 
 1. Erstelle ein html, head, style und body Element für deine Seite
+
 ```html
 <html>
 <head>
@@ -48,6 +49,7 @@ Zusatz
 </html
 ```
 2. Ändere die Hintergrundfarbe der gesamten Webseite.
+
 ```html
 <style>
 body {
@@ -55,7 +57,9 @@ body {
 }
 </style>
 ```
-2. Ändere die Farbe und Schriftgröße aller Absätze. 
+
+2. Ändere die Farbe und Schriftgröße aller Absätze und Überschriften.
+
 ```html
 <style>
 p {
@@ -63,13 +67,17 @@ p {
   background-color: rgb(0, 0, 0);
   font-size: 12px;
 }
-
 h1 {
-  /* wie oben */
+    ...
 }
+h2 {
+    ...
+}    
 </style>
 ```
+
 3. Ändere die Schriftart aller Absätze sowie aller h1, h2 und h3 überschriften. [Hier](https://www.w3schools.com/css/css_font.asp) findest du mögliche Schriftarten. 
+
 ```html
 p {
    ...
@@ -83,6 +91,7 @@ h1 {
 h2 { ... }
 h3 { ... }
 ```
+
 4. Ändere die Farbe und Schriftart aller deiner Links. Tipp: Nutze die Form `a { ... }` im css-Teil deiner Webseite.
 5. Verwende die css-Eigenschaft für deine Überschriften und Absätze. Die Verwendung findest du [hier](https://developer.mozilla.org/de/docs/Web/CSS/text-align).
 
